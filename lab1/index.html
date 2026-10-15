@@ -1,0 +1,5 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Цветовые модели — лабораторная №1</title><link rel="stylesheet" href="style.css"></head>
+<body><main><header><span class="eyebrow">КОМПЬЮТЕРНАЯ ГРАФИКА · ЛАБОРАТОРНАЯ №1</span></header>
+<section class="overview"><div id="swatch" role="img" aria-label="Текущий цвет"></div><div><span class="eyebrow">ТЕКУЩИЙ ЦВЕТ</span><h2 id="hexLabel"></h2><label class="hex">HEX <input id="hex" type="text" maxlength="7" pattern="#?[0-9a-fA-F]{6}" aria-label="Цвет HEX"></label><p>Выберите цвет в палитре любой модели или задайте его точно.</p><div id="presets" aria-label="Примеры цветов"></div></div></section>
+<div class="models" id="models"></div><p id="status" role="status" aria-live="polite"></p><footer>Чётный вариант · CMYK — RGB — HSV<br>CMYK рассчитывается по математической модели без ICC-профилей. Экран показывает цвет в RGB.</footer></main><script src="color.js"></script><script src="app.js"></script></body></html>
