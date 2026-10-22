@@ -1,0 +1,98 @@
+[
+  {
+    "id": "shadow",
+    "mode": "threshold",
+    "params": {
+      "window": 31,
+      "c": 7,
+      "k": 0.2,
+      "kernel": 5,
+      "sigma": 1.2,
+      "prefilter": false
+    },
+    "original": "8-битная яркость · тёмный текст на светлом фоне",
+    "a": "F1 текста: 0.5050",
+    "b": "F1 текста: 0.9619",
+    "difference": "Методы различаются на 10.28% пикселей."
+  },
+  {
+    "id": "faint",
+    "mode": "threshold",
+    "params": {
+      "window": 31,
+      "c": 7,
+      "k": 0.2,
+      "kernel": 5,
+      "sigma": 1.2,
+      "prefilter": false
+    },
+    "original": "8-битная яркость · тёмный текст на светлом фоне",
+    "a": "F1 текста: 0.9718",
+    "b": "F1 текста: 0.0000",
+    "difference": "Методы различаются на 5.63% пикселей."
+  },
+  {
+    "id": "texture",
+    "mode": "threshold",
+    "params": {
+      "window": 31,
+      "c": 7,
+      "k": 0.2,
+      "kernel": 5,
+      "sigma": 1.2,
+      "prefilter": false
+    },
+    "original": "8-битная яркость · тёмный текст на светлом фоне",
+    "a": "F1 текста: 0.6477",
+    "b": "F1 текста: 0.9613",
+    "difference": "Методы различаются на 5.50% пикселей."
+  },
+  {
+    "id": "gaussian",
+    "mode": "smooth",
+    "params": {
+      "window": 31,
+      "c": 7,
+      "k": 0.2,
+      "kernel": 5,
+      "sigma": 1.2,
+      "prefilter": false
+    },
+    "original": "PSNR: 21.09 дБ",
+    "a": "PSNR: 29.37 дБ",
+    "b": "PSNR: 30.12 дБ",
+    "difference": "Методы различаются на 88.97% пикселей."
+  },
+  {
+    "id": "impulse",
+    "mode": "smooth",
+    "params": {
+      "window": 31,
+      "c": 7,
+      "k": 0.2,
+      "kernel": 5,
+      "sigma": 1.2,
+      "prefilter": false
+    },
+    "original": "PSNR: 15.61 дБ",
+    "a": "PSNR: 26.17 дБ",
+    "b": "PSNR: 25.70 дБ",
+    "difference": "Методы различаются на 85.49% пикселей."
+  },
+  {
+    "id": "details",
+    "mode": "smooth",
+    "params": {
+      "window": 31,
+      "c": 7,
+      "k": 0.2,
+      "kernel": 5,
+      "sigma": 1.2,
+      "prefilter": false
+    },
+    "original": "PSNR: 25.92 дБ",
+    "a": "PSNR: 28.53 дБ",
+    "b": "PSNR: 30.60 дБ",
+    "difference": "Методы различаются на 81.87% пикселей."
+  }
+]
