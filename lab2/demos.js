@@ -2,7 +2,7 @@
 (function (root) {
   function randomGenerator(seed) { return () => { seed = (1664525 * seed + 1013904223) >>> 0; return (seed + 0.5) / 4294967296; }; }
   const list = [
-    { id: 'shadow', name: 'Текст · тень и шум', kind: 'document', description: 'Неравномерное освещение и шум на бумаге. Сравните ложные чёрные точки и сохранность букв.' },
+    { id: 'shadow', name: 'Текст · тень и шум', kind: 'document', description: '' },
     { id: 'faint', name: 'Текст · слабый контраст', kind: 'document', description: 'Бледные буквы. При стандартных параметрах локальное среднее сохраняет больше штрихов, чем Саувола.' },
     { id: 'texture', name: 'Текст · фактура бумаги', kind: 'document', description: 'Бумага с волнистой фактурой. Саувола подавляет фон, а локальное среднее может выделить фактуру как текст.' },
     { id: 'gaussian', name: 'Фигуры · гауссов шум', kind: 'scene', description: 'Известный чистый эталон и аддитивный гауссов шум. PSNR позволяет оценить сглаживание.' },
